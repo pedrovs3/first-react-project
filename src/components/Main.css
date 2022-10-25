@@ -1,0 +1,48 @@
+.Main {
+  background: whitesmoke;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Main h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.Form {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Form input[type="text"] {
+  height: 40px;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  min-width: 80%;
+}
+
+.Form button[type="submit"] {
+  border: none;
+  height: 40px;
+  width: 40px;
+  background: #f04c54;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  transition: all 300ms ease-in-out;
+}
+
+.Form button[type="submit"]:hover {
+  background: #c71218;
+}
