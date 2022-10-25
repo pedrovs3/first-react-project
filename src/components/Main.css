@@ -68,6 +68,11 @@
   background: #51c5de;
 }
 
+.Task span {
+  display: flex;
+  align-items: center;
+}
+
 .edit {
   margin-right: 15px;
   color: #51c5de;
